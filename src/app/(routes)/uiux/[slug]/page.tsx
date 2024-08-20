@@ -38,9 +38,11 @@ const UIUXDesignPage = () => {
 
   return (
     <div className="px-10 h-full">
-      <div className="flex justify-between items-center w-full sticky top-0 py-5 bg-black">
+      <div className="flex justify-between items-center w-full sticky top-0 py-5 ">
         <h2 className="text-3xl capitalize">{slug}</h2>
-        <button onClick={() => router.push("/")}><BiHome size={30}/></button>
+        <button onClick={() => router.push("/")}>
+          <BiHome size={30} />
+        </button>
       </div>
       {gallery ? (
         <ImageList handleSrc={handleSrc} gallery={gallery} />

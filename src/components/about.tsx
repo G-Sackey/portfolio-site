@@ -26,14 +26,13 @@ const About = () => {
   return (
     <div id="about" className="flex justify-between gap-10 p-10">
       <div className="relative w-[100%] h-[24rem] hidden md:block">
-
-      <Image
-        src={"/assets/profile.png"}
-        fill
-        alt="about"
-        className="object-contain object-center"
+        <Image
+          src={"/assets/about.jpg"}
+          fill
+          alt="about"
+          className="object-contain object-center"
         />
-        </div>
+      </div>
       <div>
         <h2 className="text-3xl text-orange-500">About Me</h2>
 
