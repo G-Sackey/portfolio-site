@@ -16,7 +16,7 @@ export const UI = [
         src: "/assets/UI/my_pizza/my_pizza.jpg",
       },
       {
-        src: "/assets/UI/my_pizza/my_pizza_2.jpg",
+        src: "/assets/UI/my_pizza/my_pizza2.jpg",
       },
     ],
   },
@@ -33,7 +33,7 @@ export const UI = [
     ],
   },
   {
-    name: "wacce",
+    name: "examly",
     src: "/assets/UI/wassce.png",
     gallery: [
       {

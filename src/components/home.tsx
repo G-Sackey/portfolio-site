@@ -8,11 +8,11 @@ const HomeComponent = () => {
   return (
     <div
       id="home"
-      className=" p-10 md:py-20 flex justify-between items-center h-[80vh] md:h-full relative"
+      className=" p-10 md:py-20 flex justify-between items-center h-[100vh] md:h-full relative"
     >
       <div className="relative z-50 ">
-        <h1 className="text-6xl mb-10">
-          George <br />
+        <h1 className="text-6xl mb-10 uppercase font-bold">
+          George
           Sackey-Robertson
         </h1>
         <div className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 text-2xl font-bold">

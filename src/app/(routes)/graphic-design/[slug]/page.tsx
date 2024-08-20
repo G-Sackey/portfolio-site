@@ -38,7 +38,7 @@ const GraphicDesignPage = () => {
 
   return (
     <div className="px-10 h-full">
-      <div className="flex justify-between items-center w-full sticky top-0 py-5">
+      <div className="flex justify-between items-center w-full fixed left-0 top-0 p-5 z-[1000] bg-black">
         <h2 className="text-3xl capitalize">{slug}</h2>
         <button onClick={() => router.push("/")}>
           <BiHome size={30} />

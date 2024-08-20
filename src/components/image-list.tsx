@@ -9,12 +9,12 @@ interface ImageListProps {
 
 const ImageList = ({ gallery, handleSrc }: ImageListProps) => {
   return (
-    <div className="w-full flex gap-10 flex-wrap py-10">
+    <div className="w-full flex gap-10 flex-wrap py-10 mt-10">
       {gallery.map((item) => {
         return (
           <div
             key={item?.src}
-            className=" w-[94%] md:w-[20%] h-[22rem] md:h-[26rem] relative cursor-pointer hover:scale-110 transition-all ease-in-out"
+            className=" w-full md:w-[20%] h-[22rem] md:h-[26rem] relative cursor-pointer hover:scale-110 transition-all ease-in-out"
             onClick={(e) => handleSrc(item?.src)}
           >
             <Image

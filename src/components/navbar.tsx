@@ -9,6 +9,7 @@ import Link from "next/link";
 import { title } from "process";
 import React, { useEffect, useState } from "react";
 import { RiArrowDropDownLine, RiArrowDropUpLine } from "react-icons/ri";
+import Sidebar from "./sidebar";
 
 const NavLinks = [
   {
@@ -87,7 +88,7 @@ const Navbar = () => {
               isActive ? "bg-transparent " : "bg-[#020617]/70 backdrop-blur-md"
             }`}
         >
-          <div className="p-7 flex items-center justify-center gap-10">
+          <div className="hidden p-7 md:flex items-center justify-center gap-10">
             {NavLinks.map((item) => {
               return (
                 <Link href={item?.url} key={item?.url}>
@@ -130,6 +131,11 @@ const Navbar = () => {
               )}
             </div>
             <Link href="#contact">Contact Me</Link>
+          </div>
+          <div className="md:hidden p-7 flex justify-between items-center w-full">
+            <h1>geograhix</h1>
+            {/* <button>burger</button> */}
+            <Sidebar />
           </div>
         </motion.div>
       </AnimatePresence>

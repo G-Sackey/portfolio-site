@@ -34,7 +34,7 @@ const About = () => {
         />
       </div>
       <div>
-        <h2 className="text-3xl text-orange-500">About Me</h2>
+        <h2 className="text-3xl text-[#d13643]">About Me</h2>
 
         <p className="font-thin">
           I am a dedicated graphic designer with a passion for transforming
