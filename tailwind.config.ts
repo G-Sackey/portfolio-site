@@ -19,6 +19,9 @@ const config = {
     },
     fontFamily: {
       catherova: ["var(--font-catherova)"],
+      poppins: ["var(--font-poppins)"],
+      montserrat: ["var(--font-montserrat)"],
+      lucid: ["var(--font-lucid)"],
     },
     extend: {
       colors: {

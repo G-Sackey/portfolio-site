@@ -11,16 +11,15 @@ const HomeComponent = () => {
       className=" p-10 md:py-20 flex justify-between items-center h-[100vh] md:h-full relative"
     >
       <div className="relative z-50 ">
-        <h1 className="text-6xl mb-10 uppercase font-bold font-catherova">
-          George
-          Sackey-Robertson
+        <h1 className="text-6xl mb-10 capitalize font-montserrat">
+          George Sackey-Robertson
         </h1>
-        <div className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 text-2xl font-bold">
+        <div className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 text-3xl font-bold">
           <TypewriterComponent
             options={{
               strings: [
-                "UI / UX DESIGNER.",
-                "GRAPHIC DESIGNER.",
+                "UI / UX DESIGNER",
+                "GRAPHIC DESIGNER",
                 "ILLUSTRATOR",
               ],
               autoStart: true,

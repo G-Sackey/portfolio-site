@@ -1,13 +1,13 @@
 export const UI = [
-  {
-    name: "campus-sell",
-    src: "/assets/UI/campus.jpg",
-    gallery: [
-      {
-        src: "/assets/UI/campus/mockup.jpg",
-      },
-    ],
-  },
+  // {
+  //   name: "campus-sell",
+  //   src: "/assets/UI/campus.jpg",
+  //   gallery: [
+  //     {
+  //       src: "/assets/UI/campus/mockup.jpg",
+  //     },
+  //   ],
+  // },
   {
     name: "pizza",
     src: "/assets/UI/my_pizza.jpg",

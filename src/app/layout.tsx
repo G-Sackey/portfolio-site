@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
-import { catherova } from "@/lib/customFonts";
+import { catherova, lucid, montserrat, poppins } from "@/lib/customFonts";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +18,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(`${inter.className} ${catherova.variable}`)}>{children}</body>
+      <body
+        className={cn(
+          `${inter.className} ${catherova.variable} ${montserrat.variable} ${poppins.variable} ${lucid.variable}`
+        )}
+      >
+        {children}
+      </body>
     </html>
   );
 }
