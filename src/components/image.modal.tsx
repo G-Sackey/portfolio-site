@@ -21,7 +21,7 @@ const ImageModal = ({ src, toggleModal }: ImageModalProps) => {
           className="cursor-pointer relative m-5 mb-auto"
           onClick={toggleModal}
         />
-        <div className=" w-full h-[26rem] md:h-[500px] md:w-[500px] relative">
+        <div className=" w-full h-[26rem] md:h-[550px] md:w-[550px] relative">
           <Image 
           sizes={"100vw"}
           fill
