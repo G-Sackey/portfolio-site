@@ -1,9 +1,8 @@
 import Link from "next/link";
-import React from "react";
 import { BiPhone } from "react-icons/bi";
 import { BsLinkedin, BsWhatsapp } from "react-icons/bs";
+import { FaPinterest } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
-import { SiFiverr } from "react-icons/si";
 
 const Contact = () => {
   return (
@@ -35,9 +34,9 @@ const Contact = () => {
           </Link>
         </div>
         <div className="flex gap-5 items-center justify-center md:justify-start">
-          <SiFiverr size={30} />
+          <FaPinterest  size={30} />
           <Link target="_blank" href="https://pin.it/gWpzlCHrT">
-            Fiverr
+            Pinterest
           </Link>
         </div>
       </div>
