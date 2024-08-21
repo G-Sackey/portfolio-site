@@ -276,7 +276,7 @@ export const GraphicDes = [
     ],
   },
   {
-    name: "princess gold",
+    name: "princess-gold",
     src: "/assets/GraphicDes/princess_gold.jpg",
     gallery: [
       {

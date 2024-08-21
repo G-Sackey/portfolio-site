@@ -17,6 +17,9 @@ const config = {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      catherova: ["var(--font-catherova)"],
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",

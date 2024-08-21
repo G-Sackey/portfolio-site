@@ -11,7 +11,7 @@ const HomeComponent = () => {
       className=" p-10 md:py-20 flex justify-between items-center h-[100vh] md:h-full relative"
     >
       <div className="relative z-50 ">
-        <h1 className="text-6xl mb-10 uppercase font-bold">
+        <h1 className="text-6xl mb-10 uppercase font-bold font-catherova">
           George
           Sackey-Robertson
         </h1>
