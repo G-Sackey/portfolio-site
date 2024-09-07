@@ -1,15 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import { BiPhone } from "react-icons/bi";
-import {
-  BsGithub,
-  BsInstagram,
-  BsLinkedin,
-  BsTwitterX,
-  BsWhatsapp,
-  BsX,
-} from "react-icons/bs";
+import { BsGithub, BsInstagram, BsLinkedin, BsTwitterX, BsWhatsapp } from "react-icons/bs";
 import { FaPinterest } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { CardInterface } from "../../types";
@@ -32,46 +24,6 @@ const Card = ({ info }: { info: CardInterface }) => {
           <div className="text-xs text-gray-500 capitalize">{info?.role}</div>
         </div>
       </div>
-      {/* <div className="flex justify-between gap-2">
-        {info?.tools && (
-          <div className="">
-            <h3 className="text-black font-bold">Tools</h3>
-            <div className="ml-2">
-              <ul className="list-disc marker:text-[#d13643] marker:text-xl">
-                {info?.tools.map((tool) => {
-                  return (
-                    <li
-                      key={tool}
-                      className="text-gray-700 text-base capitalize text-xs"
-                    >
-                      {tool}
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
-          </div>
-        )}
-        {info?.stack && (
-          <div className="">
-            <h3 className="text-black font-bold">Stack</h3>
-            <div className="ml-2">
-              <ul className="list-disc marker:text-[#d13643] marker:text-xl">
-                {info?.stack.map((stack) => {
-                  return (
-                    <li
-                      key={stack}
-                      className="text-gray-700 text-base capitalize text-xs"
-                    >
-                      {stack}
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
-          </div>
-        )}
-      </div> */}
 
       <div>
         <h3 className="text-black font-bold text-sm">Bio</h3>
