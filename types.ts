@@ -23,4 +23,5 @@ export interface CardInterface{
   whatsapp?: string;
   tools?: string[];
   stack?: string[];
+  bio: string;
 }

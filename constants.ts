@@ -13,6 +13,7 @@ export const collabs = [
     instagram: "https://www.instagram.com/aa_winfred",
     phoneNumber: "+233201174285",
     whatsapp: "+233201174285",
+    bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta impedit libero laborum, laboriosam aperiam, repudiandae in hic, quam similique aliquam ex vel odit illum ratione asperiores a tempore eaque nemo?",
     tools: [
       "figma",
       "photoshop",
@@ -42,6 +43,7 @@ export const collabs = [
     pinterest: "",
     phoneNumber: "+233552802788",
     whatsapp: "+233552802788",
+    bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta impedit libero laborum, laboriosam aperiam, repudiandae in hic, quam similique aliquam ex vel odit illum ratione asperiores a tempore eaque nemo?",
     tools: [
       "visual studio code",
       "figma"
@@ -66,6 +68,7 @@ export const collabs = [
     pinterest: "",
     phoneNumber: "",
     whatsapp: "",
+    bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta impedit libero laborum, laboriosam aperiam, repudiandae in hic, quam similique aliquam ex vel odit illum ratione asperiores a tempore eaque nemo?",
     tools: [
       "visual studio code",
       "android studio",

@@ -9,7 +9,7 @@ import { CardInterface } from "../../types";
 
 const Card = ({ info }: { info: CardInterface }) => {
   return (
-    <div className=" p-5 w-full h-full max-w-sm min-w-36 bg-white rounded-lg overflow-hidden shadow-lg flex flex-col justify-between gap-5">
+    <div className=" p-5 w-full h-full max-w-sm min-w-36 bg-white rounded-lg overflow-hidden shadow-lg flex flex-col gap-5">
       <div className="flex gap-5 items-center w-full">
         <div className="relative min-w-28 min-h-28 ">
           <Image
@@ -25,8 +25,7 @@ const Card = ({ info }: { info: CardInterface }) => {
           <div className="text-sm text-gray-500 capitalize">{info?.role}</div>
         </div>
       </div>
-      <div className="flex justify-between gap-2">
-        {/* tools */}
+      {/* <div className="flex justify-between gap-2">
         {info?.tools && (
           <div className="">
             <h3 className="text-black font-bold">Tools</h3>
@@ -46,7 +45,6 @@ const Card = ({ info }: { info: CardInterface }) => {
             </div>
           </div>
         )}
-        {/* stack */}
         {info?.stack && (
           <div className="">
             <h3 className="text-black font-bold">Stack</h3>
@@ -66,6 +64,13 @@ const Card = ({ info }: { info: CardInterface }) => {
             </div>
           </div>
         )}
+      </div> */}
+
+      <div>
+        <h3 className="text-black font-bold">Bio</h3>
+        <div className="text-gray-700 text-xs py-3">
+            {info?.bio}
+        </div>
       </div>
       <div className="text-black">
         <h3 className=" font-bold">Contact</h3>
