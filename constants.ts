@@ -1,3 +1,115 @@
+export const collabs = [
+  {
+    name: "Adu-Acheampong Winfred",
+    
+    src: "/assets/collabs/winfred.jpeg",
+    role: "mobile developer",
+    mail: "winfred242002@gmail.com",
+    linkedin: "",
+    github: "winfred56",
+    portfolio: "",
+    pinterest: "",
+    phoneNumber: "0201174285",
+    whatsapp: "+233201174285",
+    tools: [
+      "figma",
+      "photoshop",
+      "illustrator",
+      "visual studio code",
+      "android studio",
+      "web storm"
+    ],
+
+    stack: [
+      "flutter (dart)",
+      "nextjs (typescript)",
+      "expresjs (typescript)",
+      "django (python)"
+    ],
+  },
+  {
+    name: "Adu-Acheampong Winfred",
+    
+    src: "/assets/collabs/winfred.jpeg",
+    role: "mobile developer",
+    mail: "winfred242002@gmail.com",
+    linkedin: "",
+    github: "winfred56",
+    portfolio: "",
+    pinterest: "",
+    phoneNumber: "0201174285",
+    tools: [
+      "figma",
+      "photoshop",
+      "illustrator",
+      "visual studio code",
+      "android studio",
+      "web storm"
+    ],
+
+    stack: [
+      "flutter (dart)",
+      "nextjs (typescript)",
+      "expresjs (typescript)",
+      "django (python)"
+    ],
+  },
+  {
+    name: "Adu-Acheampong Winfred",
+    
+    src: "/assets/collabs/winfred.jpeg",
+    role: "mobile developer",
+    mail: "winfred242002@gmail.com",
+    linkedin: "",
+    github: "winfred56",
+    portfolio: "",
+    pinterest: "",
+    phoneNumber: "0201174285",
+    tools: [
+      "figma",
+      "photoshop",
+      "illustrator",
+      "visual studio code",
+      "android studio",
+      "web storm"
+    ],
+
+    stack: [
+      "flutter (dart)",
+      "nextjs (typescript)",
+      "expresjs (typescript)",
+      "django (python)"
+    ],
+  },
+  {
+    name: "Adu-Acheampong Winfred",
+    
+    src: "/assets/collabs/winfred.jpeg",
+    role: "mobile developer",
+    mail: "winfred242002@gmail.com",
+    linkedin: "",
+    github: "winfred56",
+    portfolio: "",
+    pinterest: "",
+    phoneNumber: "0201174285",
+    tools: [
+      "figma",
+      "photoshop",
+      "illustrator",
+      "visual studio code",
+      "android studio",
+      "web storm"
+    ],
+
+    stack: [
+      "flutter (dart)",
+      "nextjs (typescript)",
+      "expresjs (typescript)",
+      "django (python)"
+    ],
+  }
+]
+
 export const UI = [
   // {
   //   name: "campus-sell",

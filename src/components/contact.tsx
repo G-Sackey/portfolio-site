@@ -19,13 +19,13 @@ const Contact = () => {
           <Link href="tel:+233552853158">+233 55 285 3158 </Link>
         </div>
         <div className="flex gap-5 items-center justify-center md:justify-start">
-          <BsWhatsapp size={30} />
+          <BsWhatsapp size={30} color="green"/>
           <Link target="_blank" href="https://wa.me/+233552853158">
             Whatsapp
           </Link>
         </div>
         <div className="flex gap-5 items-center justify-center md:justify-start">
-          <BsLinkedin size={30} />
+          <BsLinkedin size={30} color="#0a66c2"/>
           <Link
             target="_blank"
             href="http://www.linkedin.com/in/george-sackey-robertson-38690031b"
@@ -34,7 +34,7 @@ const Contact = () => {
           </Link>
         </div>
         <div className="flex gap-5 items-center justify-center md:justify-start">
-          <FaPinterest  size={30} />
+          <FaPinterest  size={30} color="red"/>
           <Link target="_blank" href="https://pin.it/gWpzlCHrT">
             Pinterest
           </Link>
