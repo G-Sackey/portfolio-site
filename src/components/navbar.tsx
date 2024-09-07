@@ -10,6 +10,7 @@ import { title } from "process";
 import React, { useEffect, useState } from "react";
 import { RiArrowDropDownLine, RiArrowDropUpLine } from "react-icons/ri";
 import Sidebar from "./sidebar";
+import Image from "next/image";
 
 const NavLinks = [
   {
@@ -48,7 +49,7 @@ const Navbar = () => {
   }, []);
 
   useMotionValueEvent(scrollYProgress, "change", (current) => {
-    setShowFeatures(false)
+    setShowFeatures(false);
     if (typeof current === "number") {
       let direction = current! - scrollYProgress.getPrevious()!;
 
@@ -134,7 +135,17 @@ const Navbar = () => {
             <Link href="#contact">Contact Me</Link>
           </div>
           <div className="md:hidden p-7 flex justify-between items-center w-full">
-            <h1>geograhix</h1>
+            <div className="flex items-center gap-2">
+              <div className="w-5 h-5 relative">
+                <Image
+                  fill
+                  src={"/assets/logo_geografix.png"}
+                  alt="logo"
+                  className="object-center object-cover"
+                />
+              </div>
+              <h1>geograhix</h1>
+            </div>
             {/* <button>burger</button> */}
             <Sidebar />
           </div>
