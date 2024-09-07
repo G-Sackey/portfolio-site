@@ -20,7 +20,7 @@ const Contact = () => {
         </div>
         <div className="flex gap-5 items-center justify-center md:justify-start">
           <BsWhatsapp size={30} />
-          <Link target="_blank" href="https://wa.me/qr/WUX6GEFLODMUN1">
+          <Link target="_blank" href="https://wa.me/+233552853158">
             Whatsapp
           </Link>
         </div>

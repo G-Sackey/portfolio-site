@@ -130,6 +130,7 @@ const Navbar = () => {
                 </div>
               )}
             </div>
+            <Link href="#collaborators">Collaborators</Link>
             <Link href="#contact">Contact Me</Link>
           </div>
           <div className="md:hidden p-7 flex justify-between items-center w-full">

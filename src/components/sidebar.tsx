@@ -98,6 +98,7 @@ const Sidebar = () => {
                 </div>
               )} */}
             </div>
+            <Link href="#collaborators">Collaborators</Link>
             <Link href="#contact">Contact Me</Link>
           </div>
         </SheetHeader>
