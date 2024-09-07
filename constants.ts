@@ -1,7 +1,8 @@
-export const collabs = [
+import { CardInterface } from "./types";
+
+export const collabs: CardInterface[] = [
   {
     name: "Adu-Acheampong Winfred",
-
     src: "/assets/collabs/winfred.jpeg",
     role: "mobile developer",
     mail: "winfred242002@gmail.com",
@@ -14,21 +15,6 @@ export const collabs = [
     phoneNumber: "+233201174285",
     whatsapp: "+233201174285",
     bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta impedit libero laborum, laboriosam aperiam, repudiandae in hic, quam similique aliquam ex vel odit illum ratione asperiores a tempore eaque nemo?",
-    tools: [
-      "figma",
-      "photoshop",
-      "illustrator",
-      "visual studio code",
-      "android studio",
-      "web storm",
-    ],
-
-    stack: [
-      "flutter (dart)",
-      "nextjs (typescript)",
-      "expresjs (typescript)",
-      "django (python)",
-    ],
   },
   {
     name: "Mahamudu Halic",
@@ -44,17 +30,6 @@ export const collabs = [
     phoneNumber: "+233552802788",
     whatsapp: "+233552802788",
     bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta impedit libero laborum, laboriosam aperiam, repudiandae in hic, quam similique aliquam ex vel odit illum ratione asperiores a tempore eaque nemo?",
-    tools: [
-      "visual studio code",
-      "figma"
-    ],
-
-    stack: [
-      "nextjs (typescript)",
-      "reactjs",
-      "react native",
-      "tailwind CSS"
-    ],
   },
   {
     name: "Andrew Marfo",
@@ -69,18 +44,9 @@ export const collabs = [
     phoneNumber: "",
     whatsapp: "",
     bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta impedit libero laborum, laboriosam aperiam, repudiandae in hic, quam similique aliquam ex vel odit illum ratione asperiores a tempore eaque nemo?",
-    tools: [
-      "visual studio code",
-      "android studio",
-    ],
-
-    stack: [
-      "flutter (dart)",
-    ],
   },
   {
     name: "Adu-Acheampong Winfred",
-
     src: "/assets/collabs/winfred.jpeg",
     role: "mobile developer",
     mail: "winfred242002@gmail.com",
@@ -89,25 +55,10 @@ export const collabs = [
     portfolio: "",
     pinterest: "",
     phoneNumber: "+233201174285",
-    tools: [
-      "figma",
-      "photoshop",
-      "illustrator",
-      "visual studio code",
-      "android studio",
-      "web storm",
-    ],
-
-    stack: [
-      "flutter (dart)",
-      "nextjs (typescript)",
-      "expresjs (typescript)",
-      "django (python)",
-    ],
+    bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta impedit libero laborum, laboriosam aperiam, repudiandae in hic, quam similique aliquam ex vel odit illum ratione asperiores a tempore eaque nemo?",
   },
   {
     name: "Adu-Acheampong Winfred",
-
     src: "/assets/collabs/winfred.jpeg",
     role: "mobile developer",
     mail: "winfred242002@gmail.com",
@@ -116,21 +67,7 @@ export const collabs = [
     portfolio: "",
     pinterest: "",
     phoneNumber: "+233201174285",
-    tools: [
-      "figma",
-      "photoshop",
-      "illustrator",
-      "visual studio code",
-      "android studio",
-      "web storm",
-    ],
-
-    stack: [
-      "flutter (dart)",
-      "nextjs (typescript)",
-      "expresjs (typescript)",
-      "django (python)",
-    ],
+    bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta impedit libero laborum, laboriosam aperiam, repudiandae in hic, quam similique aliquam ex vel odit illum ratione asperiores a tempore eaque nemo?",
   },
 ];
 

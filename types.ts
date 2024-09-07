@@ -21,7 +21,5 @@ export interface CardInterface{
   twitter?: string;
   instagram?: string;
   whatsapp?: string;
-  tools?: string[];
-  stack?: string[];
   bio: string;
 }
