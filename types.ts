@@ -18,6 +18,8 @@ export interface CardInterface{
   portfolio?: string;
   pinterest?: string;
   phoneNumber?: string;
+  twitter?: string;
+  instagram?: string;
   whatsapp?: string;
   tools?: string[];
   stack?: string[];

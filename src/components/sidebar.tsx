@@ -46,7 +46,7 @@ const Sidebar = () => {
       </SheetTrigger>
       <SheetContent className="z-[214748300512] text-black">
         <SheetHeader>
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-5 items-start">
             {NavLinks.map((item) => {
               return (
                 <Link href={item?.url} key={item?.url}>

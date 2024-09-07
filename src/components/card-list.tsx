@@ -13,7 +13,7 @@ import { collabs } from "../../constants";
 export const CardList = () => {
   return (
       <Carousel className="w-full max-w-[90%] mx-auto">
-        <CarouselContent className="-ml-1">
+        <CarouselContent className="-ml-1 cursor-pointer">
           {collabs.map((info, index) => (
             <CarouselItem
               key={index}

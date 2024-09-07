@@ -1,15 +1,17 @@
 export const collabs = [
   {
     name: "Adu-Acheampong Winfred",
-    
+
     src: "/assets/collabs/winfred.jpeg",
     role: "mobile developer",
     mail: "winfred242002@gmail.com",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/winfred-adu-acheampong-934623198/",
     github: "winfred56",
     portfolio: "",
     pinterest: "",
-    phoneNumber: "0201174285",
+    twitter: "https://x.com/aa_winfred",
+    instagram: "https://www.instagram.com/aa_winfred",
+    phoneNumber: "+233201174285",
     whatsapp: "+233201174285",
     tools: [
       "figma",
@@ -17,19 +19,65 @@ export const collabs = [
       "illustrator",
       "visual studio code",
       "android studio",
-      "web storm"
+      "web storm",
     ],
 
     stack: [
       "flutter (dart)",
       "nextjs (typescript)",
       "expresjs (typescript)",
-      "django (python)"
+      "django (python)",
+    ],
+  },
+  {
+    name: "Mahamudu Halic",
+
+    src: "/assets/collabs/halic.jpg",
+    role: "front-end / mobile developer",
+    mail: "mahamuduhalic@gmail.com",
+    linkedin: "https://www.linkedin.com/in/halic-mahamudu-361946216/",
+    twitter: "https://x.com/mahamuduhalic",
+    github: "Mahamudu-Halic",
+    portfolio: "",
+    pinterest: "",
+    phoneNumber: "+233552802788",
+    whatsapp: "+233552802788",
+    tools: [
+      "visual studio code",
+      "figma"
+    ],
+
+    stack: [
+      "nextjs (typescript)",
+      "reactjs",
+      "react native",
+      "tailwind CSS"
+    ],
+  },
+  {
+    name: "Andrew Marfo",
+
+    src: "/assets/collabs/winfred.jpeg",
+    role: "mobile developer",
+    mail: "",
+    linkedin: "",
+    github: "",
+    portfolio: "",
+    pinterest: "",
+    phoneNumber: "",
+    whatsapp: "",
+    tools: [
+      "visual studio code",
+      "android studio",
+    ],
+
+    stack: [
+      "flutter (dart)",
     ],
   },
   {
     name: "Adu-Acheampong Winfred",
-    
+
     src: "/assets/collabs/winfred.jpeg",
     role: "mobile developer",
     mail: "winfred242002@gmail.com",
@@ -37,26 +85,26 @@ export const collabs = [
     github: "winfred56",
     portfolio: "",
     pinterest: "",
-    phoneNumber: "0201174285",
+    phoneNumber: "+233201174285",
     tools: [
       "figma",
       "photoshop",
       "illustrator",
       "visual studio code",
       "android studio",
-      "web storm"
+      "web storm",
     ],
 
     stack: [
       "flutter (dart)",
       "nextjs (typescript)",
       "expresjs (typescript)",
-      "django (python)"
+      "django (python)",
     ],
   },
   {
     name: "Adu-Acheampong Winfred",
-    
+
     src: "/assets/collabs/winfred.jpeg",
     role: "mobile developer",
     mail: "winfred242002@gmail.com",
@@ -64,51 +112,24 @@ export const collabs = [
     github: "winfred56",
     portfolio: "",
     pinterest: "",
-    phoneNumber: "0201174285",
+    phoneNumber: "+233201174285",
     tools: [
       "figma",
       "photoshop",
       "illustrator",
       "visual studio code",
       "android studio",
-      "web storm"
+      "web storm",
     ],
 
     stack: [
       "flutter (dart)",
       "nextjs (typescript)",
       "expresjs (typescript)",
-      "django (python)"
+      "django (python)",
     ],
   },
-  {
-    name: "Adu-Acheampong Winfred",
-    
-    src: "/assets/collabs/winfred.jpeg",
-    role: "mobile developer",
-    mail: "winfred242002@gmail.com",
-    linkedin: "",
-    github: "winfred56",
-    portfolio: "",
-    pinterest: "",
-    phoneNumber: "0201174285",
-    tools: [
-      "figma",
-      "photoshop",
-      "illustrator",
-      "visual studio code",
-      "android studio",
-      "web storm"
-    ],
-
-    stack: [
-      "flutter (dart)",
-      "nextjs (typescript)",
-      "expresjs (typescript)",
-      "django (python)"
-    ],
-  }
-]
+];
 
 export const UI = [
   // {

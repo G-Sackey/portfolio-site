@@ -2,16 +2,16 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { BiPhone } from "react-icons/bi";
-import { BsLinkedin, BsWhatsapp } from "react-icons/bs";
+import { BsGithub, BsInstagram, BsLinkedin, BsTwitterX, BsWhatsapp, BsX } from "react-icons/bs";
 import { FaPinterest } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { CardInterface } from "../../types";
 
 const Card = ({ info }: { info: CardInterface }) => {
   return (
-    <div className=" p-5 w-full max-w-sm min-w-36 bg-white rounded-lg overflow-hidden shadow-lg flex flex-col justify-center gap-5">
+    <div className=" p-5 w-full h-full max-w-sm min-w-36 bg-white rounded-lg overflow-hidden shadow-lg flex flex-col justify-between gap-5">
       <div className="flex gap-5 items-center w-full">
-        <div className="relative w-32 h-32 ">
+        <div className="relative min-w-28 min-h-28 ">
           <Image
             fill
             src={info?.src}
@@ -26,25 +26,41 @@ const Card = ({ info }: { info: CardInterface }) => {
         </div>
       </div>
       <div className="flex justify-between gap-2">
+        {/* tools */}
         {info?.tools && (
           <div className="">
             <h3 className="text-black font-bold">Tools</h3>
             <div className="ml-2">
               <ul className="list-disc marker:text-[#d13643] marker:text-xl">
                 {info?.tools.map((tool) => {
-                  return <li className="text-gray-700 text-base capitalize text-xs">{tool}</li>;
+                  return (
+                    <li
+                      key={tool}
+                      className="text-gray-700 text-base capitalize text-xs"
+                    >
+                      {tool}
+                    </li>
+                  );
                 })}
               </ul>
             </div>
           </div>
         )}
+        {/* stack */}
         {info?.stack && (
           <div className="">
             <h3 className="text-black font-bold">Stack</h3>
             <div className="ml-2">
               <ul className="list-disc marker:text-[#d13643] marker:text-xl">
-                {info?.stack.map((tool) => {
-                  return <li className="text-gray-700 text-base capitalize text-xs">{tool}</li>;
+                {info?.stack.map((stack) => {
+                  return (
+                    <li
+                      key={stack}
+                      className="text-gray-700 text-base capitalize text-xs"
+                    >
+                      {stack}
+                    </li>
+                  );
                 })}
               </ul>
             </div>
@@ -53,54 +69,81 @@ const Card = ({ info }: { info: CardInterface }) => {
       </div>
       <div className="text-black">
         <h3 className=" font-bold">Contact</h3>
-        <div className="flex flex-col gap-2 justify-center">
-            {
-                info?.mail && 
-            }
-            {
-                info?.mail && 
-            }
-            {
-                info?.mail && 
-            }
-          <div className="flex gap-5 items-center">
-            <MdEmail size={20} />
-            <p>gsackeyrobertson@gmail.com</p>
-          <div className="flex gap-5 items-center">
-            <BiPhone size={20} color="blue" />
-            <Link href="tel:+233552853158">+233 55 285 3158 </Link>
-          </div>
-          </div>
-            {
-                info?.whatsapp && 
-          <div className="flex gap-5 items-center">
-            <BsWhatsapp size={20} color="green" />
-            <Link target="_blank" href={`https://wa.me/${info?.whatsapp}`}>
-              Whatsapp
-            </Link>
-          </div>
-            }
-            {
-                info?.linkedin && 
-          <div className="flex gap-5 items-center">
-            <BsLinkedin size={20} color="#0a66c2" />
-            <Link
-              target="_blank"
-              href="http://www.linkedin.com/in/george-sackey-robertson-38690031b"
+        <div className="flex flex-col gap-3 justify-center text-xs">
+          {/* mail */}
+          {info?.mail && (
+            <div className="flex gap-2 items-center">
+              <MdEmail size={20} />
+              <p>{info?.mail}</p>
+            </div>
+          )}
+          {/* phoneNumber */}
+          {info?.phoneNumber && (
+            <div className="flex gap-2 items-center">
+              <BiPhone size={20} color="blue" />
+              <Link href={`tel: ${info?.phoneNumber}`}>
+                {info?.phoneNumber}
+              </Link>
+            </div>
+          )}
+          {/* whatsapp */}
+          {info?.whatsapp && (
+            <div className="flex gap-2 items-center">
+              <BsWhatsapp size={20} color="green" />
+              <Link target="_blank" href={`https://wa.me/${info?.whatsapp}`}>
+                Whatsapp
+              </Link>
+            </div>
+          )}
+          {/* github */}
+          {info?.github && (
+            <div className="flex gap-2 items-center">
+              <BsGithub size={20} color="" />
+              <Link
+                target="_blank"
+                href={`https://github.com/${info?.github}`}
               >
-              Linkedin
-            </Link>
-          </div>
-            }
-                {
-                    info?.pinterest && 
-          <div className="flex gap-5 items-center">
-            <FaPinterest size={20} color="red" />
-            <Link target="_blank" href="https://pin.it/gWpzlCHrT">
-              Pinterest
-            </Link>
-          </div>
-                }
+                Github
+              </Link>
+            </div>
+          )}
+          {/* linkedin */}
+          {info?.linkedin && (
+            <div className="flex gap-2 items-center">
+              <BsLinkedin size={20} color="#0a66c2" />
+              <Link
+                target="_blank"
+                href={info?.linkedin}
+              >
+                Linkedin
+              </Link>
+            </div>
+          )}
+          {/* pinterest */}
+          {info?.pinterest && (
+            <div className="flex gap-2 items-center">
+              <FaPinterest size={20} color="red" />
+              <Link target="_blank" href="https://pin.it/gWpzlCHrT">
+                Pinterest
+              </Link>
+            </div>
+          )}
+          {info?.twitter && (
+            <div className="flex gap-2 items-center">
+              <BsTwitterX size={20} color="black" />
+              <Link target="_blank" href={info?.twitter}>
+                Twitter
+              </Link>
+            </div>
+          )}
+          {info?.instagram && (
+            <div className="flex gap-2 items-center">
+              <BsInstagram size={20} color="red" />
+              <Link target="_blank" href={info?.instagram}>
+                Instagram
+              </Link>
+            </div>
+          )}
         </div>
       </div>
     </div>

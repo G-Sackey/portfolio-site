@@ -9,7 +9,7 @@ const Projects = () => {
       className="flex justify-center gap-10 my-10 flex-wrap px-10"
     >
       <div className="mb-10 flex-1">
-        <h2 className="text-3xl text-center md:text-left mb-3 md:mb-10">
+        <h2 className="text-3xl text-center mb-3 md:mb-10">
           Projects
         </h2>
         <div className="flex gap-5 md:gap-10 justify-center items-center flex-wrap md:h-full">
@@ -38,7 +38,7 @@ const Projects = () => {
       </div>
 
       <div className="w-full md:w-auto">
-        <h2 className="text-3xl text-center md:text-left mb-3 md:mb-10">
+        <h2 className="text-3xl text-center mb-3 md:mb-10">
           Tools
         </h2>
         <div className="flex gap-10 relative w-full md:h-full items-center justify-center">
