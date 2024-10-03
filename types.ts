@@ -8,7 +8,7 @@ export interface Project {
   gallery: Gallery[];
 }
 
-export interface CardInterface{
+export interface CardInterface {
   name: string;
   src: string;
   role: string;

@@ -2,7 +2,14 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { BiPhone } from "react-icons/bi";
-import { BsGithub, BsInstagram, BsLinkedin, BsTwitterX, BsWhatsapp, BsX } from "react-icons/bs";
+import {
+  BsGithub,
+  BsInstagram,
+  BsLinkedin,
+  BsTwitterX,
+  BsWhatsapp,
+  BsX,
+} from "react-icons/bs";
 import { FaPinterest } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { CardInterface } from "../../types";
@@ -68,9 +75,7 @@ const Card = ({ info }: { info: CardInterface }) => {
 
       <div>
         <h3 className="text-black font-bold">Bio</h3>
-        <div className="text-gray-700 text-xs py-3">
-            {info?.bio}
-        </div>
+        <div className="text-gray-700 text-xs py-3">{info?.bio}</div>
       </div>
       <div className="text-black">
         <h3 className=" font-bold">Contact</h3>
@@ -104,10 +109,7 @@ const Card = ({ info }: { info: CardInterface }) => {
           {info?.github && (
             <div className="flex gap-2 items-center">
               <BsGithub size={20} color="" />
-              <Link
-                target="_blank"
-                href={`https://github.com/${info?.github}`}
-              >
+              <Link target="_blank" href={`https://github.com/${info?.github}`}>
                 Github
               </Link>
             </div>
@@ -116,10 +118,7 @@ const Card = ({ info }: { info: CardInterface }) => {
           {info?.linkedin && (
             <div className="flex gap-2 items-center">
               <BsLinkedin size={20} color="#0a66c2" />
-              <Link
-                target="_blank"
-                href={info?.linkedin}
-              >
+              <Link target="_blank" href={info?.linkedin}>
                 Linkedin
               </Link>
             </div>

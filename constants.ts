@@ -44,17 +44,9 @@ export const collabs = [
     phoneNumber: "+233552802788",
     whatsapp: "+233552802788",
     bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta impedit libero laborum, laboriosam aperiam, repudiandae in hic, quam similique aliquam ex vel odit illum ratione asperiores a tempore eaque nemo?",
-    tools: [
-      "visual studio code",
-      "figma"
-    ],
+    tools: ["visual studio code", "figma"],
 
-    stack: [
-      "nextjs (typescript)",
-      "reactjs",
-      "react native",
-      "tailwind CSS"
-    ],
+    stack: ["nextjs (typescript)", "reactjs", "react native", "tailwind CSS"],
   },
   {
     name: "Andrew Marfo",
@@ -69,14 +61,9 @@ export const collabs = [
     phoneNumber: "",
     whatsapp: "",
     bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta impedit libero laborum, laboriosam aperiam, repudiandae in hic, quam similique aliquam ex vel odit illum ratione asperiores a tempore eaque nemo?",
-    tools: [
-      "visual studio code",
-      "android studio",
-    ],
+    tools: ["visual studio code", "android studio"],
 
-    stack: [
-      "flutter (dart)",
-    ],
+    stack: ["flutter (dart)"],
   },
   {
     name: "Adu-Acheampong Winfred",
