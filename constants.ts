@@ -14,7 +14,7 @@ export const collabs: CardInterface[] = [
     instagram: "https://www.instagram.com/aa_winfred",
     phoneNumber: "+233201174285",
     whatsapp: "+233201174285",
-    bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta impedit libero laborum, laboriosam aperiam, repudiandae in hic, quam similique aliquam ex vel odit illum ratione asperiores a tempore eaque nemo?",
+    bio: "A passionate Mobile Developer with a focus on creating seamless and delightful mobile experiences. 💡 As a creative problem solver, I thrive on transforming ideas into user-friendly and visually appealing mobile applications. With over 2 years of hands-on experience in mobile app development, I bring a strong foundation in Flutter, a versatile and powerful framework for building natively compiled applications for mobile, web, and desktop from a single codebase.",
   },
   {
     name: "Mahamudu Halic",
@@ -30,7 +30,6 @@ export const collabs: CardInterface[] = [
     phoneNumber: "+233552802788",
     whatsapp: "+233552802788",
     bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta impedit libero laborum, laboriosam aperiam, repudiandae in hic, quam similique aliquam ex vel odit illum ratione asperiores a tempore eaque nemo?",
-
   },
   {
     name: "Andrew Marfo",
